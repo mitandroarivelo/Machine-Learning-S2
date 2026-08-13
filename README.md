@@ -8,7 +8,6 @@ Réalisé au sein de **ISPM — Madagascar** ([www.ispm-edu.com](https://www.isp
 
 ### **1. Informations sur le Groupe**
 
-> ⚠️ **À COMPLÉTER** — je n'ai pas les identités des membres de l'équipe. Remplis chaque bloc ci-dessous.
 
 #### Membre 1
 
@@ -88,7 +87,7 @@ Classification binaire, annulation de réservation, déséquilibre de classes, v
 
 **🔗 Liens utiles :**
 
-- [**LIEN VERS LA VIDÉO DE PRÉSENTATION**] → ⚠️ **À COMPLÉTER**
+- [**LIEN VERS LA VIDÉO DE PRÉSENTATION**] → https://drive.google.com/file/d/18-8AkYqJVMnLWHnVyv9ZBb-XsKIc-dyH/view?usp=drivesdk
 
 ---
 
@@ -98,7 +97,7 @@ Résultats sur la validation temporelle (20 % des réservations les plus récent
 
 | Modèle | Paramètres principaux | Seuil retenu | F1-score | Précision | Rappel | ROC-AUC |
 |---|---|---:|---:|---:|---:|---:|
-| Régression logistique — baseline (non rééquilibrée) | `max_iter=1000` | 0.50 | ⚠️ non relevé dans nos échanges — à recopier depuis la cellule 2.4 du notebook | — | — | — |
+| Régression logistique — baseline (non rééquilibrée) | `max_iter=1000` | 0.50 | 0.2138 | — | — | — |
 | Régression logistique (balanced) | `sample_weight` équilibré | 0.39 | 0.4882 | 0.3438 | 0.8420 | 0.6775 |
 | Random Forest (balanced) | `n_estimators=300`, `sample_weight` équilibré | 0.23 | 0.4844 | 0.3575 | 0.7449 | 0.6491 |
 | **Gradient Boosting (balanced) — modèle final** | `sample_weight` équilibré, sans feature engineering | **0.45** | **0.5000** | **0.3692** | **0.7743** | **0.6746** |
@@ -142,9 +141,6 @@ D'après l'importance des variables du modèle final (section 5.1 du notebook), 
 - **Un délai long entre réservation et arrivée** (`delai_reservation_jours`, 3ᵉ variable la plus importante) : plus ce délai est long, plus le client a d'opportunités de changer d'avis.
 - **Un montant ou un prix par nuit élevé** (`prix_moyen_nuit_eur`, `montant_total_eur`, `prix_total_par_personne`) : les réservations les plus coûteuses semblent plus sensibles à l'annulation.
 
-> ⚠️ Ces profils sont déduits du classement d'importance des variables, pas d'un croisement chiffré direct (ex. « taux d'annulation par tranche de délai »). Si le canevas exige des chiffres précis par profil, il faut ajouter un `groupby('reservation_annulee')` sur ces variables — dis-le-moi et je génère le code.
->
-> Conformément à la consigne du canevas : ces profils décrivent des **circonstances de réservation** (conditions commerciales, délai, prix), pas une région ou une population — aucune région italienne n'est présentée comme intrinsèquement à risque.
 
 #### **Q6. Comment votre pipeline traite-t-il les valeurs manquantes et les catégories jamais observées pendant l'entraînement ?**
 
