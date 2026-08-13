@@ -87,7 +87,7 @@ Classification binaire, annulation de réservation, déséquilibre de classes, v
 
 **🔗 Liens utiles :**
 
-- [**LIEN VERS LA VIDÉO DE PRÉSENTATION**] → https://drive.google.com/file/d/18-8AkYqJVMnLWHnVyv9ZBb-XsKIc-dyH/view?usp=drivesdk
+- [**LIEN VERS LA VIDÉO DE PRÉSENTATION**] → https://drive.google.com/drive/folders/1-wmwnMxuH302NPiTBoFy88EgBPH_mafQ
 
 ---
 
