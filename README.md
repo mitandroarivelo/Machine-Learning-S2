@@ -12,22 +12,43 @@ Réalisé au sein de **ISPM — Madagascar** ([www.ispm-edu.com](https://www.isp
 
 #### Membre 1
 
-- nom :
-- prénom(s) :
-- classe :
-- numéro :
-- rôle : *(développeur, analyste, responsable de la modélisation, présentateur, etc.)*
+- nom :Randriantseheno
+- prénom(s) :Mitandro Ny Aina Arivelo
+- classe :isaia4
+- numéro :24
+- rôle : inscription
 
 #### Membre 2
 
-- nom :
-- prénom(s) :
-- classe :
-- numéro :
-- rôle :
+- nom :Randriamahefa 
+- prénom(s) :Tsilavina Mia
+- classe :isaia4
+- numéro :23
+- rôle : présentateur
 
-*(Ajoute autant de blocs que de membres réels — supprime ceux en trop.)*
+#### Membre 3
 
+- nom :Ratovomanalina
+- prénom(s) :Sitraka Mamy
+- classe :isaia4
+- numéro :19
+- rôle : développeur
+
+#### Membre 4
+
+- nom :Ramalarison 
+- prénom(s) :Tsiory Nomena
+- classe :isaia4
+- numéro :22
+- rôle : responsable de la modélisation
+
+#### Membre 5
+
+- nom :Randrianaliarimanana
+- prénom(s) :Manoasoa
+- classe :isaia4
+- numéro :21
+- rôle : analyste
 ---
 
 ### **2. Résumé du Travail**
@@ -68,7 +89,6 @@ Classification binaire, annulation de réservation, déséquilibre de classes, v
 **🔗 Liens utiles :**
 
 - [**LIEN VERS LA VIDÉO DE PRÉSENTATION**] → ⚠️ **À COMPLÉTER**
-- [Lien vers le dépôt GitHub] → ⚠️ **À COMPLÉTER**
 
 ---
 
