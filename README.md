@@ -15,7 +15,7 @@ Réalisé au sein de **ISPM — Madagascar** ([www.ispm-edu.com](https://www.isp
 - prénom(s) :Mitandro Ny Aina Arivelo
 - classe :isaia4
 - numéro :24
-- rôle : inscription
+- rôle : Analyste
 
 #### Membre 2
 
@@ -23,7 +23,7 @@ Réalisé au sein de **ISPM — Madagascar** ([www.ispm-edu.com](https://www.isp
 - prénom(s) :Tsilavina Mia
 - classe :isaia4
 - numéro :23
-- rôle : présentateur
+- rôle : Developpeur
 
 #### Membre 3
 
@@ -216,11 +216,11 @@ Déployer `probabilite_annulation` comme un score de priorisation pour l'équipe
 
 ### **7. Reproductibilité**
 
-- version de Python : ⚠️ **à compléter** (`!python --version` sur Colab)
-- principales bibliothèques et versions : ⚠️ **à compléter** (`pandas`, `numpy`, `scikit-learn` — exécute `!pip freeze | grep -E "pandas|numpy|scikit-learn"` sur Colab et colle le résultat)
-- graine(s) aléatoire(s) : `random_state=42` fixé sur tous les modèles (`LogisticRegression`, `RandomForestClassifier`, `GradientBoostingClassifier`, `GridSearchCV`)
+- version de Python : 3
+- principales bibliothèques et versions : pandas, numpy, scikit-learn, matplotlib, seaborn
+- graine(s) aléatoire(s) : `LogisticRegression`, `RandomForestClassifier`, `GradientBoostingClassifier`, `GridSearchCV`
 - commande ou procédure d'exécution : ouvrir `notebook.ipynb` sur Google Colab, exécuter les cellules dans l'ordre (Runtime > Run all), uploader `reservations_train.csv` puis `reservations_test.csv` quand demandé
-- durée approximative d'entraînement : ⚠️ **à compléter**
+- durée approximative d'entraînement : 4 seconde
 - environnement utilisé : Google Colab
 
 ---
@@ -230,4 +230,4 @@ Déployer `probabilite_annulation` comme un score de priorisation pour l'équipe
 - Documentation officielle scikit-learn : `ColumnTransformer`, `Pipeline`, `TimeSeriesSplit`, `GridSearchCV`, `compute_sample_weight` — [scikit-learn.org](https://scikit-learn.org)
 - Sujet et données du hackathon : *Atlantic Haven Hotels*, ISPM Madagascar — [github.com/AndryRAB/atlantic-haven](https://github.com/AndryRAB/atlantic-haven)
 - **Outil d'IA générative utilisé** : Claude (Anthropic) a été utilisé en support tout au long du projet — aide au débogage du pipeline (dont un bug de `ColumnTransformer` partagé entre plusieurs modèles), génération du code de feature engineering et d'analyse des erreurs (sections 4 à 6 du notebook), diagnostic de l'écart entre le taux d'annulation prédit et observé, et rédaction de ce rapport à partir des résultats produits par l'équipe. Toutes les métriques et sorties de code proviennent de l'exécution réelle du notebook par l'équipe.
-- ⚠️ **À compléter** : ajoute ici tout cours, article ou ressource supplémentaire utilisé par l'équipe.
+
